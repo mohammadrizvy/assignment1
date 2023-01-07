@@ -189,4 +189,25 @@ i{
 
 /* Call Now section */
 
+.call-now{
+    max-width: 1140px;
+    margin: 0 auto;
+    border-radius: 8px;
+    background-image:linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%),url(/images/watch.png);
+    margin-bottom: 130px;
+}
+
+.call{
+    text-align: left;
+    padding: 60px 80px;
+    
+}
+
+.call-now-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+    margin-bottom: 20px;
+    width: 459px;
+}
 
