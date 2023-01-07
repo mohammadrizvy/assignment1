@@ -29,6 +29,8 @@ nav li{
     list-style: none;
     margin-left: 50px;
     font-size:18px;
+    font-weight: bold;
+    color: white;
     
 }
 
@@ -41,6 +43,7 @@ nav li{
     color: #005FAC;
     border: 0;
     border-radius:5px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
     
 
 }
@@ -77,3 +80,113 @@ nav li{
     float: right;
     margin-bottom: 160px;
 }
+
+/* My failure styles */
+
+.faliure{
+    max-width: 1140px;
+    margin: 0 auto;
+    
+}
+
+.faliure-contant{
+    display: flex;
+    margin-top: 150px;
+    align-items: center;
+    gap: 24px;
+
+}
+
+.faliure-title{
+    width: 288px;
+    height: 94px;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 18px;
+    
+}
+
+.faliure-description{
+    width: 416px;
+    height: 104px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom:10px;
+}
+
+.faliure-list{
+    list-style: none;
+}
+
+.faliure li{
+    margin-bottom: 10px;
+}
+
+i{
+    color: #16D887;
+}
+
+.left-image{
+    margin-right: 87px;
+
+}
+
+.faliure{
+    background-color:#005FAC ;
+    border-radius: 10px;
+}
+
+/* My plans section */
+
+.section-title{
+    margin-top:130px;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;  
+    margin-bottom: 50px; 
+}
+
+.plan-container{
+    display: flex;
+    gap: 85px;
+    justify-content: center;
+    margin:0 auto;
+    margin-bottom: 130px;
+}
+
+.plan-title{
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+}
+
+.plan-subtitle{
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    color:#737272;
+}
+
+.my-plans img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.my-plans{
+    margin-top: 130px;
+    border-radius: 10px;;
+    margin-bottom: 50px;
+}
+
+.plan{
+    background: #FFFFFF;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+/* Call Now section */
+
+
