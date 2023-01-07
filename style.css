@@ -1,0 +1,79 @@
+*{
+    font-family: Work Sans;
+    margin: 0;
+}
+
+.header{
+    background-image: url(/images/banner/banner3.png);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+   
+    
+}
+
+
+/* Navigation bar styles */
+
+nav {
+   padding:50px ;
+   margin-right: 190px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+nav li{
+    list-style: none;
+    margin-left: 50px;
+    font-size:18px;
+    
+}
+
+.primary-button{
+    width: 180px;
+    height: 64px;
+    font-weight: 800;
+    font-size: 20px;
+    padding: 20px 25px;
+    color: #005FAC;
+    border: 0;
+    border-radius:5px;
+    
+
+}
+
+/* Banner styles */
+
+.banner{
+    display: flex;
+    margin-top:180px;
+    justify-content: right;
+    margin-right: 230px;
+    
+}
+
+.banner-title{
+    width: 525px;
+    height: 228px;
+    font-weight: 700;
+    font-size: 65px;
+    margin-bottom: 25px;
+    text-align: right;
+}
+
+.banner-description{
+    width: 494px;
+    height: 78px;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.banner .primary-button{
+    float: right;
+    margin-bottom: 160px;
+}
