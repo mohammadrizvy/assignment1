@@ -211,3 +211,68 @@ i{
     width: 459px;
 }
 
+/* Subscribe section styles */
+
+.subscribe a{
+    text-decoration: none;
+    margin-right:15px;
+
+}
+
+.subscribe-title{
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 16px;
+    /* margin-top: 130px; */
+}
+
+.subscribe-description{
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 24px;
+    width: 485px;
+
+
+}
+
+.subscribe{
+    display: flex;
+    gap: 100px;
+    background: #151414;
+    color: white;
+    justify-content: center;
+    padding: 130px 230px;
+   
+}
+
+.email{
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 16px;
+
+}
+
+.number{
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom:32px;
+}
+
+.subscribe input[type="email"] {
+    margin-bottom: 29px;
+    border:1px solid white;
+    padding: 20px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #151414;
+    height: 51px;
+    box-sizing: border-box;
+    
+}
+
+placeholder {
+    opacity: 1;
+    font-weight: 400;
+    color: #F3F3F3;
+    font-size: 18px;
+}
